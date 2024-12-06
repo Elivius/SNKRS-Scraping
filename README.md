@@ -10,5 +10,7 @@ The extracted data will be stored in a database, providing a structured and cent
 
 ## Short Description
 SNKRS_dataScraping.py: Main code
+
 SNKRS_dataLoading.py: Extract and save data into database. It includes validation to prevent duplicate entries by checking for existing SKUs before adding new data
+
 SNKRS_dataWebhookSending.py: Convert data into information and send it to related discord channel via discohook
