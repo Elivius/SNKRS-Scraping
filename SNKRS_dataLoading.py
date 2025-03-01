@@ -2,9 +2,9 @@ import pypyodbc as odbc
 
 ask = input('SKU: ')
 
-DRIVER_NAME = 'SQL Server'
-SERVER_NAME = 'Jack\SQLEXPRESS'
-DATABASE_NAME = 'SNKRS_Scraping'
+DRIVER_NAME = 'YOUR_DRIVER_NAME'
+SERVER_NAME = 'YOUR_SERVER_NAME'
+DATABASE_NAME = 'YOUR_DATABASE_NAME'
 
 connection_string = f"""
     DRIVER={{{DRIVER_NAME}}};
