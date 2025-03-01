@@ -16,16 +16,15 @@ sku = data[list(data.keys())[4]]
 price = data[list(data.keys())[5]]
 
 # arranging message
-
 description = (f"Product Name: {product_name}\nPrice: {price}\nSKU: {sku}\nRelease Date: {release_date}\nPool: SNKRS/NIKE 'YOUR-COUNTRY'\nLink: {link}")
 
 # sending webhook
-webhook_url = 'https://discord.com/api/webhooks/945270039144190002/37BX_ykySpS8u0jxYkMmt9Qvnl-ZUftweBjv4-iN6icLQGIKL8TpvHYDzu-fyRDSMcXt'
+webhook_url = 'YOUR_WEBHOOK_API'
 
 hook = DiscordWebhook(
     webhook_url,
-    username = 'Lemon Proxies Release Details',
-    avatar_url = 'https://images-ext-1.discordapp.net/external/SBPPWg7LcXmmsk0vgrtf-Srx3hP9j88HZMJwmRSj5ng/https/pbs.twimg.com/profile_images/1310467741216776192/KmmDcPt2_400x400.jpg'
+    username = 'WEBHOOK_USERNAME',
+    avatar_url = 'WEBHOOK_AVATAR_IMG_URL'
     )
 
 embed = DiscordEmbed(
